@@ -1,0 +1,6 @@
+10 June 2019
+
+When running the Mojave OS on Mac the IPython console in Spyder 3.3.5 runs very slowly.  To fix this you can install specific versions of ipython and ipykernel, which will have you use Spyder 3.3.2, which works just fine.  Install:
+    ipython version 6.5.0
+    ipykernel version 4.8.2
+Do this using the bash command: conda install ipython=6.5.0
